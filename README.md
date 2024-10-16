@@ -1,34 +1,41 @@
-# Doom: Spotify Mood Detector
+
+---
+
+### RouteWise: Chrome Extension
+
+```markdown
+# RouteWise: Chrome Extension
 
 ## Project Overview
-**Doom: Spotify Mood Detector** is a web application that provides dynamic song search, playback, and recommendations based on the user's mood. The project integrates **Spotify API** for music search and playback and **Echo Nest API** for analyzing song moods. The recommendation algorithm utilizes **Python** and **Node.js** to provide personalized song recommendations.
+**RouteWise** is a Chrome extension that provides optimized travel mode recommendations (walking, biking, or driving) based on real-time data from **Google Maps**, **OpenWeatherMap**, and geolocation APIs. The project is designed to increase recommendation accuracy for daily commutes by analyzing user preferences, route efficiency, and environmental conditions.
 
 ## Features
-- **Search and Playback**: Users can search for songs and play them directly from the app using the Spotify API.
-- **Mood-Based Recommendations**: Songs are recommended based on mood analysis using the Echo Nest API.
-- **User-Friendly Interface**: The front-end is built with **HTML**, **CSS**, and **TypeScript**, providing a simple, clean interface.
-- **Backend with Node.js**: Handles API requests and serves data to the front-end.
-- **Recommendation Algorithm**: The recommendation logic is implemented in Python and integrated into the Node.js backend.
+- **Real-Time Travel Recommendations**: Suggests the best travel mode based on weather, traffic, and user preferences.
+- **Geolocation Integration**: Automatically fetches the user's current location to provide relevant recommendations.
+- **Google Maps and OpenWeatherMap APIs**: Integrates real-time data for route and weather conditions.
+- **Decision-Making Algorithm**: A sophisticated algorithm considers multiple factors like weather, traffic, and user preferences to improve recommendation accuracy.
+- **Simple User Interface**: Built with **React**, **HTML**, **CSS**, and **JavaScript**, ensuring ease of use.
 
 ## Tech Stack
-- **Frontend**: HTML, CSS, TypeScript
-- **Backend**: Node.js, Express, Python
-- **APIs**: Spotify API, Echo Nest API
-- **Database**: MongoDB (for storing user preferences)
+- **Frontend**: React, HTML, CSS, JavaScript
+- **APIs**: Google Maps API, OpenWeatherMap API, Geolocation API
+- **Chrome Extension**: Manifest Version 3, Chrome Scripting API
 - **Version Control**: Git
 
 ## Project Structure
 ```bash
-doom-spotify-mood-detector/
+routewise-chrome-extension/
 │
-├── public/              # Static assets (images, icons, etc.)
-├── src/                 # Frontend source files
-│   ├── app.ts           # Main TypeScript app logic
-│   ├── index.html       # Main HTML file
-│   ├── styles.css       # Application styles
+├── public/              # Static assets (icons, images)
+│   ├── index.html       # Main HTML file for the extension popup
 │
-├── server.js            # Node.js server
-├── recommendation.py    # Python file for song mood analysis and recommendation
+├── src/                 # Source code
+│   ├── App.js           # Main React component for the extension
+│   ├── recommendation.js# Decision-making algorithm for travel recommendations
+│   ├── geolocation.js   # Geolocation API integration
+│   ├── App.css          # Styles for the app
+│
+├── background.js        # Chrome background service worker
 ├── manifest.json        # Chrome Extension manifest
 ├── package.json         # Project dependencies
 ├── README.md            # Documentation
