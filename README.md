@@ -10,7 +10,7 @@
 **RouteWise** is a Chrome extension that provides optimized travel mode recommendations (walking, biking, or driving) based on real-time data from **Google Maps**, **OpenWeatherMap**, and geolocation APIs. The project is designed to increase recommendation accuracy for daily commutes by analyzing user preferences, route efficiency, and environmental conditions.
 
 ## Features
-- **Real-Time Travel Recommendations**: Suggests the best travel mode based on weather, traffic, and user preferences.
+- **Real-Time Travel Recommendations**: Suggests the best travel mode based on weather, traffic, and user preferences..
 - **Geolocation Integration**: Automatically fetches the user's current location to provide relevant recommendations.
 - **Google Maps and OpenWeatherMap APIs**: Integrates real-time data for route and weather conditions.
 - **Decision-Making Algorithm**: A sophisticated algorithm considers multiple factors like weather, traffic, and user preferences to improve recommendation accuracy.
