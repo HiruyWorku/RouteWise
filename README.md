@@ -20,7 +20,7 @@
 - **Frontend**: React, HTML, CSS, JavaScript
 - **APIs**: Google Maps API, OpenWeatherMap API, Geolocation API
 - **Chrome Extension**: Manifest Version 3, Chrome Scripting API
-- **Version Control**: Git
+- **Version Control**: Git.
 
 ## Project Structure
 ```bash
