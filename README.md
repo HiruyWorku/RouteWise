@@ -33,7 +33,7 @@ routewise-chrome-extension/
 │   ├── App.js           # Main React component for the extension
 │   ├── recommendation.js# Decision-making algorithm for travel recommendations
 │   ├── geolocation.js   # Geolocation API integration
-│   ├── App.css          # Styles for the app
+│   ├── App.css          # Styles for the app. 
 │
 ├── background.js        # Chrome background service worker
 ├── manifest.json        # Chrome Extension manifest
