@@ -38,5 +38,5 @@ routewise-chrome-extension/
 ├── background.js        # Chrome background service worker
 ├── manifest.json        # Chrome Extension manifest
 ├── package.json         # Project dependencies
-├── README.md            # Documentation.
+├── README.md            # Documentation
 
